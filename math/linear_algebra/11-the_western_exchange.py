@@ -7,4 +7,4 @@ project (https://intranet.hbtn.io/projects/2275)
 
 def np_transpose(matrix):
     """transposes a numpy matrix."""
-    return np.transpose(matrix)
+    return matrix.transpose()
