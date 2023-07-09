@@ -14,6 +14,6 @@ def np_slice(matrix, axes={}):
         axes (dict): dictionary where the key is an axis to slice along and
             the value is a tuple representing the slice to make along that axis
     """
-    DEFAULT_SLICE = slice(None, None, None)  # slice to select everything
+    DEFAULT_SLICE = (None, None, None)  # slice to select everything
     slices = [slice(*axes.get(i, DEFAULT_SLICE)) for i in range(matrix.ndim)]
     return matrix[tuple(slices)]
