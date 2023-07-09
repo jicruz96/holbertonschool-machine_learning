@@ -1,4 +1,10 @@
 #!/usr/bin/env python3
+"""
+Module for exercise number 101 for the numpy and linear algebra
+project (https://intranet.hbtn.io/projects/2275)
+"""
+
+
 def add_matrices(mat1, mat2):
     """Adds two matrices"""
     if len(mat1) != len(mat2):

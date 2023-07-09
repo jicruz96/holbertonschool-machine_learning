@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+"""
+Module for exercise number 7 for the numpy and linear algebra
+project (https://intranet.hbtn.io/projects/2275)
+"""
 
 
 def cat_matrices2D(mat1, mat2, axis=0):

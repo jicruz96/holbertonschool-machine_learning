@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+"""
+Module for exercise number 8 for the numpy and linear algebra
+project (https://intranet.hbtn.io/projects/2275)
+"""
 from typing import List, Union
 
 TwoDMatrixType = List[List[int]]

@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+"""
+Module for exercise number 6 for the numpy and linear algebra
+project (https://intranet.hbtn.io/projects/2275)
+"""
 
 
 def cat_arrays(arr1, arr2):

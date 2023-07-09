@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+"""
+Module for exercise number 9 for the numpy and linear algebra
+project (https://intranet.hbtn.io/projects/2275)
+"""
 import numpy as np
 matrix = np.array([[1, 2, 3, 4, 5, 6], [7, 8, 9, 10, 11, 12],
                    [13, 14, 15, 16, 17, 18], [19, 20, 21, 22, 23, 24]])
