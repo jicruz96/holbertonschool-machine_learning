@@ -54,7 +54,7 @@ def two(text_kwargs=None):
     plt.xlabel("Time (years)", **text_kwargs)
     plt.ylabel("Fraction Remaining", **text_kwargs)
     plt.title("Exponential Decay of Radioactive Elements", **text_kwargs)
-    plt.legend(loc="upper right")
+    plt.legend(loc="upper right", **text_kwargs)
 
 
 def frequency(text_kwargs=None):
